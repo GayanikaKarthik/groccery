@@ -4,8 +4,8 @@ import {Header} from 'react-native-elements';
 import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 
-import ReadyMade from './components/RMMScreen'
-import CustomScreen from './components/CustomScreen';
+import ReadyMade from './RMMScreen'
+import CustomScreen from './CustomScreen';
 
 export default class App extends React.Component {
   render(){
